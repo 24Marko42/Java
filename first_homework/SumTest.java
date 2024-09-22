@@ -1,5 +1,5 @@
 package first_homework;
-//hotya nahui on tyt nyzhen, etot vash test... proveryet, chtobi summa bila v promezhytke ot 0 do 1
+
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
