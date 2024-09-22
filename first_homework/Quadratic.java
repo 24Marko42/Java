@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Quadratic {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner chisla = new Scanner(System.in);
         System.out.print("Введите коэффициент a: ");
-        double a = scanner.nextDouble();
+        double a = chisla.nextDouble();
         System.out.print("Введите коэффициент b: ");
-        double b = scanner.nextDouble();
+        double b = chisla.nextDouble();
         System.out.print("Введите коэффициент c: ");
-        double c = scanner.nextDouble();
+        double c = chisla.nextDouble();
 
         String result = solveQuadratic(a, b, c);
         System.out.println(result);
