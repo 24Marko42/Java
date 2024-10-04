@@ -31,12 +31,5 @@ public class balance {
             System.out.println("R"); // Правая чаша перевесила
         }
     }
-
-    public static void main(String[] args) {
-        balance balance = new balance();
-        balance.addLeft(10); // Положить 10 на левую чашу
-        balance.addRight(8); // Положить 8 на правую чашу
-        balance.result(); // Вывести результат
-        }
-    }
+}
 

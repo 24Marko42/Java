@@ -33,15 +33,4 @@ public class OddEvenSeparator {
         System.out.println(oddNumbers);
     }
 
-    public static void main(String[] args) {
-        OddEvenSeparator separator = new OddEvenSeparator();
-        separator.addNumber(5);
-        separator.addNumber(8);
-        separator.addNumber(3);
-        separator.addNumber(12);
-        separator.addNumber(14);
-        separator.addNumber(15);
-        separator.even(); // Вывод четных чисел
-        separator.odd(); // Вывод нечетных чисел
-    }
 }

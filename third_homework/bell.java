@@ -15,14 +15,5 @@ public class bell {
         }
         count++; // Увеличение счетчика для следующего вызова
     }
-
-    public static void main(String[] args) {
-        bell bell = new bell();
-        for(int i = 0; i < 5; i++) { // Вызываем метод sound 5 раз
-            bell.sound();
-        }
-        bell.sound(); 
-        bell.sound();
-    }
 }
 
